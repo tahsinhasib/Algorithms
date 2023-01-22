@@ -1,3 +1,10 @@
+/*  
+    Sequential Search ---->
+    Time complexity: O(N)
+    Auxiliary Space: O(1)
+*/
+
+
 #include<iostream>
 using namespace std;
 
