@@ -1,0 +1,16 @@
+A brute force algorithm is a method of solving a problem by systematically trying every possible solution 
+until a correct one is found. The algorithm evaluates every possible solution by checking if it satisfies 
+the problem's constraints. The brute force algorithm is simple, straightforward and easy to understand, 
+but it is not always the most efficient solution. It can be very slow and impractical for large problems 
+with many possible solutions.
+
+The time complexity of a brute force algorithm is usually O(n^m) where n is the number of possible solutions 
+and m is the number of nested loops, which is the number of variables in the problem.
+
+Brute force algorithms are often used in problems that have a small number of possible solutions or in cases 
+where no better solution is known. For example, a brute force algorithm can be used to find the shortest path 
+between two points on a map by checking all possible routes.
+
+It is important to note that the brute force algorithm is not always the best option, especially when dealing 
+with large input, instead we can use more optimized algorithm like dynamic programming, greedy, or divide and 
+conquer algorithm that have better time complexity to solve the problem.
