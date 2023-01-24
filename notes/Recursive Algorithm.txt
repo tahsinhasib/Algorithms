@@ -1,0 +1,21 @@
+A recursive algorithm is an algorithm that calls itself in order to solve a problem. Recursive algorithms 
+are used to solve problems that can be broken down into smaller, similar subproblems. The key idea behind 
+recursion is to divide the problem into smaller subproblems, solve those subproblems recursively, and then 
+combine the solutions to the subproblems to find the solution to the original problem.
+
+In a recursive algorithm, a function calls itself with a modified version of the original input, until the 
+input is small enough that it can be solved directly. These subproblems are called recursive cases, and the 
+function defines a base case or stopping condition to stop the recursion.
+
+The base case is a simple and well-defined problem, which can be solved without recursion. Once the base 
+case is reached, the function will start returning the solutions of the subproblems back up the recursive 
+call stack, and use them to find the solution to the original problem.
+
+Recursive algorithms can be more elegant and easier to understand than iterative algorithms, but they have 
+a higher time complexity and a higher risk of stack overflow.
+
+Recursive algorithms are mostly used in problems related to mathematics, tree and graph traversals, and 
+recursive data structures like linked lists and trees.
+
+Examples of problems that can be solved using recursive algorithms include factorial calculation, Fibonacci 
+sequence, towers of Hanoi, and traversing a directory structure.
